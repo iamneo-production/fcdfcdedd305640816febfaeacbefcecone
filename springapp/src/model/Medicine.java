@@ -27,35 +27,35 @@ public class Medicine{
         this.medicineId = medicineId;
     }
 
-    public int getMedicineId(){
-        return medicineId;
+    public int getMedicineName(){
+        return medicineName;
     }
 
-    public void setMedicineId(int medicineId){
-        this.medicineId = medicineId;
+    public void setMedicineName(String medicineName){
+        this.medicineName = medicineName;
     }
 
-    public int getMedicineId(){
-        return medicineId;
+    public int price(){
+        return price;
     }
 
-    public void setMedicineId(int medicineId){
-        this.medicineId = medicineId;
+    public void setPrice(float price){
+        this.price = price;
     }
 
-    public int getMedicineId(){
-        return medicineId;
+    public int getQuantity(){
+        return quantity;
     }
 
-    public void setMedicineId(int medicineId){
-        this.medicineId = medicineId;
+    public void setQuantity(int quantity){
+        this.quantity = quantity;
     }
 
-    public int getMedicineId(){
-        return medicineId;
+    public int getDescription(){
+        return description;
     }
 
-    public void setMedicineId(int medicineId){
-        this.medicineId = medicineId;
+    public void setDescription(String description){
+        this.description = description;
     }
 }
